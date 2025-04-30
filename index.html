@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube web page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="left-section">
+            <i class="fas fa-bars" id="menu-icon"></i>
+            <img src="https://www.youtube.com/img/desktop/yt_1200.png" alt="YouTube Logo" class="youtube-logo">
+        </div>
+        
+        <div class="middle-section">
+            <form class="search-bar">
+                <input type="text" placeholder="Search">
+                <button><i class="fas fa-search"></i></button>
+            </form>
+            <button class="voice-search-button">
+                <i class="fas fa-microphone"></i>
+            </button>
+        </div>
+
+        <div class="right-section">
+            <button class="upload-icon">
+                <i class="fas fa-video"></i>
+            </button>
+            <button class="apps-icon">
+                <i class="fas fa-th"></i>
+            </button>
+            <button class="notifications-icon">
+                <i class="fas fa-bell"></i>
+            </button>
+            <button class="profile-icon">
+                <img src="https://via.placeholder.com/32" alt="Profile picture">
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="sidebar-section">
+                <div class="sidebar-item active">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-compass"></i>
+                    <span>Explore</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-play-circle"></i>
+                    <span>Shorts</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-subscription"></i>
+                    <span>Subscriptions</span>
+                </div>
+            </div>
+            <hr>
+            <div class="sidebar-section">
+                <div class="sidebar-item">
+                    <i class="fas fa-folder"></i>
+                    <span>Library</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-history"></i>
+                    <span>History</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-clock"></i>
+                    <span>Watch later</span>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>Liked videos</span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Video Grid -->
+        <div class="video-grid">
+            <!-- Video Card Template -->
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="https://via.placeholder.com/320x180" alt="Video thumbnail">
+                    <span class="video-time">14:20</span>
+                </div>
+                <div class="video-info">
+                    <img src="https://via.placeholder.com/40" alt="Channel avatar" class="channel-icon">
+                    <div class="video-details">
+                        <h3 class="video-title">Sample Video Title That Is Long Enough To Test Wrapping</h3>
+                        <p class="channel-name">Channel Name</p>
+                        <p class="video-metadata">123K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat video cards as needed -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
