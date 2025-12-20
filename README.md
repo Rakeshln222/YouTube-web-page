@@ -2,8 +2,6 @@
 
 This project is a comprehensive **clone of the YouTube home interface**, developed using **HTML5**, **CSS3**, and **JavaScript**. It mimics the layout, design, and interactive behaviors of YouTube’s desktop UI, complete with a sidebar, header controls, search bar, video grid, and responsive design. It also integrates interactive features like sidebar toggling, hover effects, and dynamic video card rendering.
 
----
-
 ## 📁 Project Structure
 
 ```
@@ -13,8 +11,6 @@ youtube-clone/
 ├── script.js        # JS for interactivity and DOM manipulation
 └── note.txt         # Technical documentation and design breakdown
 ```
-
----
 
 ## 🚀 Key Features
 
@@ -30,7 +26,6 @@ youtube-clone/
 | 📱 Mobile-Friendly Design  | Hides sidebar and adjusts layout for small screens                     |
 | ⚙️ JavaScript Interactions | Sidebar toggle, hover zoom effects, and dynamic content loading        |
 
----
 
 ## 🖥️ User Interface Overview
 
@@ -58,7 +53,6 @@ youtube-clone/
   * Title, channel name, view count, and posting time.
 * Uses JavaScript to simulate dynamic video loading.
 
----
 
 ## 📱 Responsive Design
 
@@ -69,8 +63,6 @@ youtube-clone/
 | Mobile      | 1 column, sidebar hidden     |
 
 Media queries adapt layout to screen size ensuring **mobile-first** responsiveness.
-
----
 
 ## 🔧 Technologies Used
 
@@ -104,8 +96,6 @@ const sampleVideos = [
 ];
 ```
 
----
-
 ## 📑 Code Highlights
 
 ### HTML
@@ -129,7 +119,6 @@ const sampleVideos = [
 * Modular card creation.
 * UI updates on click and hover events.
 
----
 
 ## 📌 Best Practices Implemented
 
@@ -156,7 +145,6 @@ According to `note.txt`, suggested improvements include:
 * 📺 Channel Page Templates
 * 🗂️ Backend integration using Firebase or Node.js
 
----
 
 ## 📚 References
 
@@ -165,30 +153,20 @@ According to `note.txt`, suggested improvements include:
 * Web Content Accessibility Guidelines (WCAG)
 * Responsive Web Design Principles
 
----
 
 ## 🧑‍💻 Author
 
 **Rakesh L N**
 💼 Web Developer & UI Designer
-📫 Email: `you@example.com`
-🔗 GitHub | LinkedIn | Portfolio *(optional)*
+📫 Email: rakeshln0000@gmail.com
+🔗 GitHub: https://github.com/Rakeshln222
 
----
 
 ## 📄 License
 
 This project is **open-source** and available under the **MIT License**.
 Feel free to use, modify, distribute, or improve the project with proper attribution.
 
----
 
-## 💡 How to Use
-
-1. Download or clone the project folder.
-2. Open `index.html` in any modern browser.
-3. Resize the window or open on different devices to test responsiveness.
-4. Interact with the menu, hover on video cards, and toggle sidebar.
-5. Extend the codebase with your own video content or backend services.
 
 
