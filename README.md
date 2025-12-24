@@ -73,7 +73,6 @@ Media queries adapt layout to screen size ensuring **mobile-first** responsivene
 | JavaScript  | DOM manipulation, event handling  |
 | FontAwesome | Icons for UI consistency          |
 
----
 
 ## 📜 JavaScript Functionality
 
@@ -130,8 +129,6 @@ const sampleVideos = [
 * ✅ **Mobile-First Approach**
 * ✅ **Code Comments for Clarity**
 
----
-
 ## 🔮 Future Enhancements
 
 According to `note.txt`, suggested improvements include:
@@ -160,13 +157,3 @@ According to `note.txt`, suggested improvements include:
 💼 Web Developer & UI Designer
 📫 Email: rakeshln0000@gmail.com
 🔗 GitHub: https://github.com/Rakeshln222
-
-
-## 📄 License
-
-This project is **open-source** and available under the **MIT License**.
-Feel free to use, modify, distribute, or improve the project with proper attribution.
-
-
-
-
